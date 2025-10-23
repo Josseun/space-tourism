@@ -120,7 +120,7 @@ function Crew() {
             </div>
             <div className="flex flex-col justify-center items-center gap-20">
               <div className="relative mr-20">
-                <div className="w-[512px] flex items-center justify-center flex-col ">
+                <div className="w-lg flex items-center justify-center flex-col ">
                   <div className="text-[24px] text-center font-Bellefair-reg text-[#979797] uppercase mb-5">
                     {activeCrew.status}
                   </div>
