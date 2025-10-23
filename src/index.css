@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints - use specific names */
+  --breakpoint-ssm: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  /* Colors - must map to standard names */
+  --color-dark: hsl(230 35% 7%);
+  --color-light: hsl(231 77% 90%);
+  --color-white: hsl(0 0% 100%);
+
+  /* Font families */
+  --font-barlow-reg: "barlow-reg", "serif";
+  --font-barlow-bold: "barlow-bold", "serif";
+  --font-Bellefair-reg: "Bellefair-reg", "serif";
+}
+
+@font-face {
+  font-family: barlow-reg;
+  src: url(./assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: barlow-bold;
+  src: url(./assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: Bellefair-reg;
+  src: url(./assets/fonts/Bellefair/Bellefair-Regular.ttf);
+}
