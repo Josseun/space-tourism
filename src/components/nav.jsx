@@ -5,8 +5,7 @@ import Hamburger from "../assets/Image/icon-hamburger.svg";
 import Close from "../assets/Image/icon-close.svg";
 
 function Nav() {
-  // const location = useLocation();
-  // const activeBtn = location.pathname === "/home"
+
 
   function DesktopLayout() {
     return (

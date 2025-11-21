@@ -7,12 +7,12 @@ function hero() {
   function DesktopLayout() {
     return (
       <div
-        className="lg:block md:hidden ssm:hidden bg-cover"
-        style={{ backgroundImage: `url(${BGHD})`, height: "800px" }}
+        className="lg:block md:hidden ssm:hidden bg-cover h-screen"
+        style={{ backgroundImage: `url(${BGHD})`, height: "100vh" }}
       >
         <Nav />
-        <div className="w-full h-140 flex justify-center items-center">
-          <div className="flex w-full max-w-[1110px] justify-between items-center  text-white uuppercase tracking-widest px-10">
+        <div className="w-full flex justify-center items-center mt-35 px-20">
+          <div className="flex w-full  justify-between items-center  text-white uppercase tracking-widest ">
             <div>
               <div
                 className="text-[28px] font-barlow-reg stroke-black tracking-[4px] leading-normal uppercase pl-5
